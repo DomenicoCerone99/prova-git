@@ -86,4 +86,8 @@ public class Esame {
         return this.insegnamento + Costanti.SEPARATORE + this.crediti + Costanti.SEPARATORE
                 + this.voto + Costanti.SEPARATORE + this.lode + Costanti.SEPARATORE + df.format(dataRegistrazione.getTime());
     }
+
+    public String prova(){
+    	return "prova git";
+    }
 }
